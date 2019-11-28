@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_category"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#3495eb"
+        android:text="Delete/Edit Category"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button_add_category"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Create category"
+        android:layout_marginTop="100dp"
+        android:background="#3495eb"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/button_event"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="Create Event"
+        android:background="#3495eb"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button_editProd"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Edit/Delete Product"
+        android:background="#3495eb"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button_createProd"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#3495eb"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Create Product"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="200dp"/>
+
+    <Button
+        android:id="@+id/button_order"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Orders"
+        android:background="#3495eb"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="200dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/targetlogo"/>
+</RelativeLayout>

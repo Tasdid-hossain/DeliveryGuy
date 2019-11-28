@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image1"
+        android:id="@+id/i1"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="image 1 here"
+        android:layout_below="@+id/i1"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/edit_image1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image1"
+        android:id="@+id/i2"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="image 2 here"
+        android:layout_below="@+id/i2"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/edit_image2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image3"
+        android:id="@+id/i3"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="image 3 here"
+        android:layout_below="@+id/i3"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/edit_image3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image4"
+        android:id="@+id/i4"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="image 3 here"
+        android:layout_below="@+id/i4"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/edit_image4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update event"
+        android:layout_below="@id/edit_image4"
+        android:id="@+id/update_event"
+        android:layout_marginLeft="50dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#3495eb"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/cancel_event"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/update_event"
+        android:layout_below="@id/edit_image4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="#3495eb"/>
+
+</RelativeLayout>
